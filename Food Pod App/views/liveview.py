@@ -2,6 +2,12 @@ import arcade
 import arcade.gui
 import math
 import matplotlib.pyplot as plt
+from main import MenuView
+from main import MyGame
+from main import SettingsView
+from main import LiveView
+from main import CreditsView
+from main import TrendsView
 curr_colour = arcade.color.TEAL_GREEN
 class LiveView(arcade.View):
     def __init__(self):

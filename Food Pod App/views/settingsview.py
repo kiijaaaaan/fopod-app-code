@@ -3,6 +3,12 @@ import arcade.gui
 import math
 import matplotlib.pyplot as plt
 curr_colour = arcade.color.TEAL_GREEN
+from main import MenuView
+from main import MyGame
+from main import SettingsView
+from main import LiveView
+from main import CreditsView
+from main import TrendsView
 class SettingsView(arcade.View):
     def __init__(self):
         super().__init__()

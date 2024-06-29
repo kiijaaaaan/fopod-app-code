@@ -6,20 +6,13 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 from PIL import Image
-from views.settingsview import SettingsView
-from views.liveview import LiveView
-from views.creditsview import CreditsView
-from views.trendsview import TrendsView
+from main import SettingsView
+from main import LiveView
+from main import CreditsView
+from main import TrendsView
 
 curr_colour = arcade.color.TEAL_GREEN
 import time
-
-data = [
-    {'time': 1622520000, 'food': 'Apples', 'weight': 5},
-    {'time': 1622606400, 'food': 'Bananas', 'weight': 2},
-    {'time': 1622692800, 'food': 'Carrots', 'weight': 8},
-    # Add more sample data as needed
-]
 
 class MyGame(arcade.View):
     """
